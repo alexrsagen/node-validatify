@@ -1,0 +1,31 @@
+{
+  "name": "validatify",
+  "version": "1.0.0",
+  "description": "Extremely simple form and input validation for Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexrsagen/node-validatify.git"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "validatify",
+    "validate",
+    "form",
+    "input"
+  ],
+  "author": "alexrsagen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexrsagen/node-validatify/issues"
+  },
+  "homepage": "https://github.com/alexrsagen/node-validatify#readme"
+}
