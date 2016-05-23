@@ -1,5 +1,3 @@
-# node-validation
-
 Extremely simple form and input validation for Node.js
 
 ## Install
