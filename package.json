@@ -1,11 +1,9 @@
 {
   "name": "validatify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Extremely simple form and input validation for Node.js",
   "main": "index.js",
-  "dependencies": {
-    "async": "^1.5.2"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
