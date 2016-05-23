@@ -1,6 +1,6 @@
 {
   "name": "validatify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extremely simple form and input validation for Node.js",
   "main": "index.js",
   "dependencies": {
