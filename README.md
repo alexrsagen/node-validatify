@@ -178,7 +178,7 @@ new Form([{
     ```
 
 ## Validators
-These are the default validators, however you can add your own easily. ([Here's how](#someTitle)).
+These are the default validators, however you can add your own easily. ([Here's how](#validatorname-validator)).
 
 ### Usage
 This is an example of what you would pass to the Form constructor.
@@ -195,19 +195,19 @@ This is an example of what you would pass to the Form constructor.
 ```
 
 ### Validator names and usages
-* `number` - Checks if input is a number [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L3-L10)
-* `boolean` - Checks if input is either "true" or "false" as a string [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L12-L19)
-* `string` - Checks if input is a string [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L21-L28)
-* `integer` - Checks if input is a number without decimals [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L30-L37)
-* `float` - Checks if input is a number with decimals [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L39-L46)
-* `alphanumeric` - Checks if input is a string and contains only alphanumeric characters [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L48-L55)
-* `email` - Checks if input is an email address [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L58-L70)
-* `defined` - Checks if input is defined [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L72-L79)
-* `required` - Checks if value is defined and not empty [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L81-L88)
-* `range` - Checks if value is a number within a range defined as an array [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L90-L100)
-* `min` - Checks if value is a number more than or equal to the min setpoint [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L102-L110)
-* `max`- Checks if value is a number less than or equal to the max setpoint [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L112-L120)
-* `minlength` - Checks if value as a string has a length more than or equal to the min setpoint [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L122-L131)
-* `maxlength` - Checks if value as a string has a length less than or equal to the max setpoint [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L133-L142)
-* `length` - Checks if value as a string has a length equal to the setpoint [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L144-L152)
-* `regex` - Checks if input matches a regex [Source](https://github.com/alexrsagen/node-validatify/blob/master/src/validators.js#L154-L162)
+* `number` - Checks if input is a number [Source](src/validators.js#L3-L10)
+* `boolean` - Checks if input is either "true" or "false" as a string [Source](src/validators.js#L12-L19)
+* `string` - Checks if input is a string [Source](src/validators.js#L21-L28)
+* `integer` - Checks if input is a number without decimals [Source](src/validators.js#L30-L37)
+* `float` - Checks if input is a number with decimals [Source](src/validators.js#L39-L46)
+* `alphanumeric` - Checks if input is a string and contains only alphanumeric characters [Source](src/validators.js#L48-L55)
+* `email` - Checks if input is an email address [Source](src/validators.js#L58-L70)
+* `defined` - Checks if input is defined [Source](src/validators.js#L72-L79)
+* `required` - Checks if value is defined and not empty [Source](src/validators.js#L81-L88)
+* `range` - Checks if value is a number within a range defined as an array [Source](src/validators.js#L90-L100)
+* `min` - Checks if value is a number more than or equal to the min setpoint [Source](src/validators.js#L102-L110)
+* `max`- Checks if value is a number less than or equal to the max setpoint [Source](src/validators.js#L112-L120)
+* `minlength` - Checks if value as a string has a length more than or equal to the min setpoint [Source](src/validators.js#L122-L131)
+* `maxlength` - Checks if value as a string has a length less than or equal to the max setpoint [Source](src/validators.js#L133-L142)
+* `length` - Checks if value as a string has a length equal to the setpoint [Source](src/validators.js#L144-L152)
+* `regex` - Checks if input matches a regex [Source](src/validators.js#L154-L162)
